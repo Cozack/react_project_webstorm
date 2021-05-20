@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9e915a-cf27-40fe-a59f-565eeef62954" name="Default Changelist" comment="1st part of work">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5f9e915a-cf27-40fe-a59f-565eeef62954" name="Default Changelist" comment="1st part of work ended">
       <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/reducers.js" afterDir="false" />
     </list>
@@ -90,7 +89,7 @@
       <workItem from="1621504343245" duration="509000" />
       <workItem from="1621504868881" duration="1104000" />
       <workItem from="1621506149974" duration="4411000" />
-      <workItem from="1621517955240" duration="929000" />
+      <workItem from="1621517955240" duration="1182000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1621368403849</created>
@@ -127,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621510527136</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1st part of work ended">
+      <created>1621519059521</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621519059521</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +157,7 @@
     <MESSAGE value="just master" />
     <MESSAGE value="reducer class work DONE" />
     <MESSAGE value="1st part of work" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st part of work" />
+    <MESSAGE value="1st part of work ended" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st part of work ended" />
   </component>
 </project>

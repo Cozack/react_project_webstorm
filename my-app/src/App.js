@@ -15,7 +15,6 @@ const Posts = () => {
             const response = await fetch('https://jsonplaceholder.typicode.com/posts')
             const payload = await response.json();
             dispatch({type: 'SET_POSTS', payload});
-            dispatch({type: 'RESET_IS_LOADING'});
             dispatch({type: 'SET_ERROR',payload:'failed to fetch data'});
             console.log(data)
         } catch (e) {
