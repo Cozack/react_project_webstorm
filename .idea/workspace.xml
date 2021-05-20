@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9e915a-cf27-40fe-a59f-565eeef62954" name="Default Changelist" comment="reducer class work DONE">
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+    <list default="true" id="5f9e915a-cf27-40fe-a59f-565eeef62954" name="Default Changelist" comment="1st part of work">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/redux/reducers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,8 @@
       <workItem from="1621503881106" duration="80000" />
       <workItem from="1621504343245" duration="509000" />
       <workItem from="1621504868881" duration="1104000" />
-      <workItem from="1621506149974" duration="4295000" />
+      <workItem from="1621506149974" duration="4411000" />
+      <workItem from="1621517955240" duration="929000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1621368403849</created>
@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621434354499</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1st part of work">
+      <created>1621510527135</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621510527136</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +150,7 @@
     <MESSAGE value="class_work not finished yed" />
     <MESSAGE value="just master" />
     <MESSAGE value="reducer class work DONE" />
-    <option name="LAST_COMMIT_MESSAGE" value="reducer class work DONE" />
+    <MESSAGE value="1st part of work" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st part of work" />
   </component>
 </project>
