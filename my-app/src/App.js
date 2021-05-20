@@ -2,32 +2,40 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react'
 import {useSelector, useDispatch} from 'react-redux'
+import {
+    usePostsFetcher,
+    usePostsSetLoading,
+    usePostsSetError
+} from './redux'
+
+
 
 const Posts = () => {
-    const {isLoading, posts,error} = useSelector(({isLoading, posts,error}) => ({
-        isLoading, posts,error
+    const {isLoading, posts, error} = useSelector(({isLoading, posts, error}) => ({
+        isLoading, posts, error
     }));
-    const dispatch = useDispatch();
+    const postFetcher = usePostsFetcher();
+    const postLoading = usePostsSetLoading();
+    const postError = usePostsSetError();
 
     const fetchPosts = async () => {
         try {
-            dispatch({type:'SET_IS_LOADING'});
-            const response = await fetch('https://jsonplaceholder.typicode.com/posts')
+            postLoading();
+            const response = await fetch('https://jsonplaceholder.typicode.com/posts');
             const payload = await response.json();
-            dispatch({type: 'SET_POSTS', payload});
-            dispatch({type: 'SET_ERROR',payload:'failed to fetch data'});
-            console.log(data)
+            // dispatch(setPosts(payload));
+           postFetcher(payload);
         } catch (e) {
-            console.log(e)
+            postError('failed to fetch data');
         }
     }
 
     React.useEffect(() => {
         fetchPosts();
     }, []);
-    if (error){
+    if (error) {
         return
-            <h1>{error}</h1>
+        <h1>{error}</h1>
     }
     if (isLoading) {
         return
@@ -35,8 +43,8 @@ const Posts = () => {
     }
     return (
         <div>
-        {posts.map(post => (<p key={post.id}>{post.title} - {post.body}</p>))}
-    </div>
+            {posts.map(post => (<p key={post.id}>{post.title} - {post.body}</p>))}
+        </div>
     )
 
 };
